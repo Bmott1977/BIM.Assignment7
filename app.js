@@ -17,14 +17,24 @@ app.get('/', (_, response) => {
 	response.sendFile('index.html', { root })
 })
 
-
-
 // GET /api/todos
+
+app.get('/api/todos', (request, response) => {
+	const list = todos
+	response.json(list)
+})
 
 // POST /api/todos
 
+app.post('/api/todos', (request, response) => {
+
+
+})
+
 // PUT /api/todos/:id
 
+app.get('/api/todos/:id', (request, response) => {
+})
 
 
 const message = `Server running: http://localhost:${port}`

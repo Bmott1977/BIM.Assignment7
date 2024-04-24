@@ -6,9 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Brendan Mott",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bmott1977/BIM.Assignment7.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Bmott1977/BIM.Assignment7/issues"
+  },
+  "homepage": "https://github.com/Bmott1977/BIM.Assignment7#readme"
 }

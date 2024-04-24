@@ -27,13 +27,17 @@ app.get('/api/todos', (request, response) => {
 // POST /api/todos
 
 app.post('/api/todos', (request, response) => {
-
-
+	const {item} = request.body
+	const id = todos.length + 1
+	const complete = false 
+	todos.push({item, id, complete})
 })
 
 // PUT /api/todos/:id
 
 app.get('/api/todos/:id', (request, response) => {
+
+	
 })
 
 

@@ -35,9 +35,10 @@ app.post('/api/todos', (request, response) => {
 
 // PUT /api/todos/:id
 
-app.get('/api/todos/:id', (request, response) => {
-
-	
+app.put('/api/todos/:id', (request, response) => {
+	const {id} = request.params
+	const task = todos.find(todo => todo.id.toString() === id)
+	task.complete = !task.complete
 })
 
 
